@@ -195,7 +195,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -262,7 +262,7 @@
       <workItem from="1578290114818" duration="4457000" />
       <workItem from="1578381037567" duration="1605000" />
       <workItem from="1578733555158" duration="78000" />
-      <workItem from="1579054192631" duration="3930000" />
+      <workItem from="1579054192631" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="diyici">
       <created>1571981938816</created>
