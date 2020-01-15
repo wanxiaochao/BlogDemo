@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f47e6b9-29b2-4cf7-99e0-4907184f7f7b" name="Default Changelist" comment="20200115">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dimple/test/util/Builder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven2/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\maven2\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1VBhYGdfLrW8X6vzbyM01SO5PBJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15495344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dimple.test.multithread" />
+      <recent name="com.dimple.framework.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\self_project\DimPleFeng\src\main\resources\lib" />
+      <recent name="G:\self_project\DimPleFeng\src\main\java\com\dimple\common\utils" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 257 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 257 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="DimpleBlog" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.Builder">
+    <configuration name="Builder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.util.Builder" />
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.killifelse.MainTest" />
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.killifelse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test1" />
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test2" />
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.main.Test4" />
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DimpleBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DimpleBlog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dimple.DimpleBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Builder" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f47e6b9-29b2-4cf7-99e0-4907184f7f7b" name="Default Changelist" comment="" />
+      <created>1571036717938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571036717938</updated>
+      <workItem from="1571036720303" duration="8150000" />
+      <workItem from="1571104109757" duration="10167000" />
+      <workItem from="1571188940342" duration="3244000" />
+      <workItem from="1571275378527" duration="9769000" />
+      <workItem from="1571361978056" duration="627000" />
+      <workItem from="1571637393432" duration="96000" />
+      <workItem from="1571819622167" duration="7008000" />
+      <workItem from="1571881857097" duration="10059000" />
+      <workItem from="1571970667838" duration="11722000" />
+      <workItem from="1572226721755" duration="18509000" />
+      <workItem from="1572314992622" duration="1456000" />
+      <workItem from="1572343991276" duration="1256000" />
+      <workItem from="1572424635662" duration="5198000" />
+      <workItem from="1572503828580" duration="293000" />
+      <workItem from="1572572543287" duration="15634000" />
+      <workItem from="1572831971849" duration="7637000" />
+      <workItem from="1572925380071" duration="5541000" />
+      <workItem from="1573021007302" duration="3964000" />
+      <workItem from="1573096249571" duration="284000" />
+      <workItem from="1573103664796" duration="4190000" />
+      <workItem from="1573176468093" duration="5861000" />
+      <workItem from="1573437340226" duration="1229000" />
+      <workItem from="1573464676900" duration="209000" />
+      <workItem from="1573610541960" duration="710000" />
+      <workItem from="1573631952820" duration="2625000" />
+      <workItem from="1573726832750" duration="58000" />
+      <workItem from="1573781529462" duration="1417000" />
+      <workItem from="1573803932364" duration="2107000" />
+      <workItem from="1574218250578" duration="5328000" />
+      <workItem from="1574929434620" duration="3005000" />
+      <workItem from="1574990469037" duration="1906000" />
+      <workItem from="1575431338540" duration="3229000" />
+      <workItem from="1575601352113" duration="2572000" />
+      <workItem from="1575870854933" duration="2994000" />
+      <workItem from="1575946068886" duration="1995000" />
+      <workItem from="1576123015363" duration="2548000" />
+      <workItem from="1576460485776" duration="4666000" />
+      <workItem from="1576490329600" duration="599000" />
+      <workItem from="1576547878013" duration="1191000" />
+      <workItem from="1576561042779" duration="691000" />
+      <workItem from="1576732447835" duration="752000" />
+      <workItem from="1576745257064" duration="1632000" />
+      <workItem from="1576805454959" duration="206000" />
+      <workItem from="1576805732507" duration="872000" />
+      <workItem from="1577092742530" duration="1468000" />
+      <workItem from="1577174446877" duration="3101000" />
+      <workItem from="1577246273294" duration="1198000" />
+      <workItem from="1577348467748" duration="1040000" />
+      <workItem from="1577410748436" duration="2539000" />
+      <workItem from="1577437966804" duration="1623000" />
+      <workItem from="1577674515427" duration="6718000" />
+      <workItem from="1577758077016" duration="5933000" />
+      <workItem from="1577933347049" duration="646000" />
+      <workItem from="1578016688030" duration="3833000" />
+      <workItem from="1578101425901" duration="1310000" />
+      <workItem from="1578290114818" duration="4457000" />
+      <workItem from="1578381037567" duration="1605000" />
+      <workItem from="1578733555158" duration="78000" />
+      <workItem from="1579054192631" duration="3930000" />
+    </task>
+    <task id="LOCAL-00001" summary="diyici">
+      <created>1571981938816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571981938816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20191030">
+      <created>1572424696808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572424696808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20191030 17.07">
+      <created>1572426457185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572426457185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20191030 17.50">
+      <created>1572429009532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572429009532</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20191101 1131">
+      <created>1572579084570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572579084570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20191101 1830">
+      <created>1572604202548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572604202548</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20191101 1830">
+      <created>1573207920911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573207920911</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20200115">
+      <created>1579057249434</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579057249434</updated>
+    </task>
+    <task id="LOCAL-00009" summary="20200115">
+      <created>1579057554866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579057554866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MailServiceImplTest_testUser - 2019.10.14 at 16h 38m 19s.xml">
+      <configuration name="MailServiceImplTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MailServiceImplTest_testUser - 2019.10.14 at 16h 40m 48s.xml">
+      <configuration name="MailServiceImplTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 16h 40m 33s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 16h 50m 00s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog222 - 2019.10.23 at 16h 51m 42s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog222" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 17h 13m 35s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 25m 31s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 26m 01s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 29m 21s.xml">
+      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlogMapperTest_download - 2019.10.24 at 09h 56m 48s.xml">
+      <configuration name="BlogMapperTest.download" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="diyici" />
+    <MESSAGE value="20191030" />
+    <MESSAGE value="20191030 17.07" />
+    <MESSAGE value="20191030 17.50" />
+    <MESSAGE value="20191101 1131" />
+    <MESSAGE value="20191101 1830" />
+    <MESSAGE value="20200115" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200115" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Inspections" timestamp="1577676739384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1577676739384" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1579054868005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579054868005" />
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578291964436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578291964436" />
+    <state x="489" y="112" key="CommitChangelistDialog2" timestamp="1579058114321">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="489" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579058114321" />
+    <state width="414" height="466" key="DebuggerActiveHint" timestamp="1579054421212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="414" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1579054421212" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579058136830">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579058136830" />
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1579058140140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1579058140140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1579058140140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1579058140140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1579057443577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1579057443577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1579057443577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1579057443577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1577772248705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577772248705" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579058129460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579058129460" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578101427813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578101427813" />
+    <state width="506" height="356" key="documentation.popup.size" timestamp="1577694760715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="506" height="356" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1577694760715" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1577694215074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577694215074" />
+    <state x="791" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1579057913520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="791" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579057913520" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577694232058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577694232058" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1579057939863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1579057939863" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dimple/project/system/menu/service/MenuServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/dimple/test/nio_test/TimeClientHandle.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>836</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DimpleBlog$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1575946554088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dimple.test.main.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DimpleBlog</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
