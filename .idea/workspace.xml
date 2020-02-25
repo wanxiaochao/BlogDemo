@@ -99,7 +99,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.Builder">
+  <component name="RunManager" selected="JUnit.Test3.test111">
     <configuration name="Builder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dimple.test.util.Builder" />
       <module name="DimpleBlog" />
@@ -113,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dimple.test.killifelse.MainTest" />
-      <module name="DimpleBlog" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dimple.test.killifelse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test1" />
+    <configuration name="HasStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.HasStatic" />
       <module name="DimpleBlog" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test2" />
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test1" />
       <module name="DimpleBlog" />
       <extension name="coverage">
         <pattern>
@@ -165,6 +152,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test3.test111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DimpleBlog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dimple.test.multithread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dimple.test.multithread" />
+      <option name="MAIN_CLASS_NAME" value="com.dimple.test.multithread.Test3" />
+      <option name="METHOD_NAME" value="test111" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DimpleBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="DimpleBlog" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dimple.DimpleBlogApplication" />
@@ -174,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test3.test111" />
+        <item itemvalue="Application.HasStatic" />
+        <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.Builder" />
         <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1 (1)" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +265,19 @@
       <workItem from="1578290114818" duration="4457000" />
       <workItem from="1578381037567" duration="1605000" />
       <workItem from="1578733555158" duration="78000" />
-      <workItem from="1579054192631" duration="4309000" />
+      <workItem from="1579054192631" duration="5806000" />
+      <workItem from="1579065227705" duration="620000" />
+      <workItem from="1579077466556" duration="599000" />
+      <workItem from="1579141050564" duration="10888000" />
+      <workItem from="1579254949043" duration="1503000" />
+      <workItem from="1579397799136" duration="2712000" />
+      <workItem from="1579483373894" duration="6143000" />
+      <workItem from="1579570176245" duration="5760000" />
+      <workItem from="1580607352435" duration="741000" />
+      <workItem from="1580636774902" duration="833000" />
+      <workItem from="1580693997899" duration="591000" />
+      <workItem from="1580780189350" duration="678000" />
+      <workItem from="1582597379899" duration="2126000" />
     </task>
     <task id="LOCAL-00001" summary="diyici">
       <created>1571981938816</created>
@@ -330,38 +345,6 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="MailServiceImplTest_testUser - 2019.10.14 at 16h 38m 19s.xml">
-      <configuration name="MailServiceImplTest.testUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailServiceImplTest_testUser - 2019.10.14 at 16h 40m 48s.xml">
-      <configuration name="MailServiceImplTest.testUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 16h 40m 33s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 16h 50m 00s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog222 - 2019.10.23 at 16h 51m 42s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog222" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog111 - 2019.10.23 at 17h 13m 35s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog111" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 25m 31s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 26m 01s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_testInsertBlog333 - 2019.10.23 at 17h 29m 21s.xml">
-      <configuration name="BlogMapperTest.testInsertBlog333" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlogMapperTest_download - 2019.10.24 at 09h 56m 48s.xml">
-      <configuration name="BlogMapperTest.download" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -403,38 +386,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579058136830" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1579058140140">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom" timestamp="1579516147826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1579058140140">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579516147826" />
+    <state width="1877" height="200" key="GridCell.Tab.0.center" timestamp="1579516147826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1579058140140">
+    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579516147826" />
+    <state width="1877" height="200" key="GridCell.Tab.0.left" timestamp="1579516147826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1579058140140">
+    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579516147826" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right" timestamp="1579516147826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579058140140" />
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1579057443577">
+    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579516147826" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1579170693121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
-    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1579057443577">
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579170693121" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1579170693120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
-    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1579057443577">
+    <state width="1877" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579170693120" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1579170693120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
-    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1579057443577">
+    <state width="1877" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579170693120" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1579170693120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579057443577" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579170693120" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1577772248705">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -443,26 +426,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579058129460" />
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578101427813">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582600203953">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578101427813" />
-    <state width="506" height="356" key="documentation.popup.size" timestamp="1577694760715">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582600203953" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1580780261332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="506" height="356" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1577694760715" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1577694215074">
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580780261332" />
+    <state width="506" height="356" key="documentation.popup.size" timestamp="1579511037190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577694215074" />
+    <state width="506" height="356" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1579511037190" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1579512365594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579512365594" />
     <state x="791" y="384" key="git4idea.rebase.GitRebaseDialog" timestamp="1579057913520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="791" y="384" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579057913520" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577694232058">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582597526320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577694232058" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582597526320" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1579057939863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,20 +20,21 @@ public class Test1 implements Callable<String> {
         while (true){
             Thread.sleep(1000);
             s = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-            System.out.println(s);
+            System.out.println("线程名："+Thread.currentThread().getName()+"时间："+s);
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         FutureTask<String> integerFutureTask = new FutureTask<>(new Test1());
         new Thread(integerFutureTask).start();
         try {
             String integer = integerFutureTask.get();
-            System.out.println(integer);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
+
     }
 }

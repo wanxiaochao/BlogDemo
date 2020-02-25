@@ -8,7 +8,6 @@ import java.util.function.Supplier;
 public class Builder<T> {
 
     public static void main(String[] args) {
-        Menu build = Builder.of(Menu::new).with(Menu::setParentId, "111").build();
 
         System.out.println(111);
     }

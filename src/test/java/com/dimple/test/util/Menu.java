@@ -14,7 +14,7 @@ public class Menu {
     private List<Menu> children;
     private List<String> ccc;
 
-    public Menu() {
+    public Menu(String gn001D000, String s, String 系统管理, String s1, String y) {
     }
 
     public String getId() {
