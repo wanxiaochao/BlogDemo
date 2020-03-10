@@ -74,7 +74,13 @@ public class HttpClient {
         }
     }
 
-    public String doPost(String url, String map, String charset) {
+    public static void main(String[] args) {
+        String s = HttpClient.doPost("https://molink.f3322.org:8198/evcs/v20160701/query_token", "{\"OperatorID\":\"565843400\",\"TimeStamp\":\"20200225080432\",\"Seq\":\"0002\",\"Sig\":\"1E8A05AE26F3F1840A15EDCDE3AAF858\",\"Data\":\"JZ8r/eNrli4ScVHJuWqvUKaFZYqO/ZSHuBHlcyENPwV4nwfHM7qrPbhXUoU/4AW1sAQd67BHoxqPTOHwnvpaHQ==\"}", "UTF-8");
+
+        System.out.println(s);
+    }
+
+    public static String doPost(String url, String map, String charset) {
         CloseableHttpClient closeableHttpClient = null;
         CloseableHttpResponse closeableHttpResponse = null;
         String result = null;
