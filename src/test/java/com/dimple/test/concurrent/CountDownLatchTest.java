@@ -1,5 +1,7 @@
 package com.dimple.test.concurrent;
 
+import lombok.SneakyThrows;
+
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 /*CountDownLatch 的构造函数接收一个int 类型的参数作为计数器，如果你想等待N个点完成，这里就传入N。
@@ -14,6 +16,7 @@ public class CountDownLatchTest {
 
     public static void main(String[] args) {
         new Thread(new Runnable() {
+            @SneakyThrows
             @Override
             public void run() {
                 System.out.println(1 + " -- " + System.currentTimeMillis());
@@ -21,24 +24,27 @@ public class CountDownLatchTest {
                 System.out.println(2 + " -- " + System.currentTimeMillis());
                 c.countDown();
                 try {
+
                     Thread.sleep(1000);
                     System.out.println(4 + " -- " + System.currentTimeMillis());
                     c.countDown();
                     Thread.sleep(1000);
                     System.out.println(5 + " -- " + System.currentTimeMillis());
+                    c.await();
+                    System.out.println("3" + " -- " + System.currentTimeMillis());
                     c.countDown();
                     System.out.println(6 + " -- " + System.currentTimeMillis());
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         }).start();
-        try {
-            c.await();
-            System.out.println("3" + " -- " + System.currentTimeMillis());
+  /*      try {
+
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 

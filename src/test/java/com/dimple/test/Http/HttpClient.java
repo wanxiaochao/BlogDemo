@@ -1,5 +1,6 @@
 package com.dimple.test.Http;
 
+import com.alibaba.fastjson.JSON;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.config.AuthSchemes;
@@ -28,10 +29,7 @@ import javax.net.ssl.X509TrustManager;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.X509Certificate;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class HttpClient {
 
@@ -75,7 +73,10 @@ public class HttpClient {
     }
 
     public static void main(String[] args) {
-        String s = HttpClient.doPost("https://molink.f3322.org:8198/evcs/v20160701/query_token", "{\"OperatorID\":\"565843400\",\"TimeStamp\":\"20200225080432\",\"Seq\":\"0002\",\"Sig\":\"1E8A05AE26F3F1840A15EDCDE3AAF858\",\"Data\":\"JZ8r/eNrli4ScVHJuWqvUKaFZYqO/ZSHuBHlcyENPwV4nwfHM7qrPbhXUoU/4AW1sAQd67BHoxqPTOHwnvpaHQ==\"}", "UTF-8");
+        Map map = new HashMap();
+        map.put("questionId", "5e6b441df4d72828f359e711");
+        map.put("update", "{\"content\":\"不拉不拉不拉一大堆\"}");
+        String s = HttpClient.doPost("http://0.0.0.0:10003/api_v20/question/write/updateQuestion", JSON.toJSONString(map), "UTF-8");
 
         System.out.println(s);
     }
@@ -140,6 +141,7 @@ public class HttpClient {
             try {
                 closeableHttpClient = HttpClients.createDefault();
                 HttpPost httpPost = new HttpPost(url);
+                httpPost.addHeader("token", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiMCIsInNhbHQiOiI3Mzk1MzIyMjUyIiwidXNlcklkIjoiNWU2NWZkYzk3MWYxYzMzNDEwNmI4NmFiIiwiaXNzIjoid2l0aHBhdGgiLCJhdWQiOiJpb3MiLCJleHAiOjE1OTIzODI0MDksIm5iZiI6MTU4Mzc0MjQwOX0.h1sw2BLgqXLE9mkx0NRyHRoG6fxMs0O6QpPF6bOCX3Q");
                 if (null != param && param.size() > 0) {
                     List<NameValuePair> params = new ArrayList<>();
                     param.forEach((k, v) -> {
