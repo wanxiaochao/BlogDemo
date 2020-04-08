@@ -14,6 +14,7 @@ public class Test {
 
     public void test1(){
         List<CompletableFuture<String>> futures = new ArrayList<>();
+
         futures.add(CompletableFuture.supplyAsync(this::t1,executor));
         futures.add(CompletableFuture.supplyAsync(this::t2,executor));
         futures.add(CompletableFuture.supplyAsync(this::t3,executor));

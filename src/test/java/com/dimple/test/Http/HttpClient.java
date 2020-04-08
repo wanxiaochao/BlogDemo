@@ -141,7 +141,6 @@ public class HttpClient {
             try {
                 closeableHttpClient = HttpClients.createDefault();
                 HttpPost httpPost = new HttpPost(url);
-                httpPost.addHeader("token", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiMCIsInNhbHQiOiI3Mzk1MzIyMjUyIiwidXNlcklkIjoiNWU2NWZkYzk3MWYxYzMzNDEwNmI4NmFiIiwiaXNzIjoid2l0aHBhdGgiLCJhdWQiOiJpb3MiLCJleHAiOjE1OTIzODI0MDksIm5iZiI6MTU4Mzc0MjQwOX0.h1sw2BLgqXLE9mkx0NRyHRoG6fxMs0O6QpPF6bOCX3Q");
                 if (null != param && param.size() > 0) {
                     List<NameValuePair> params = new ArrayList<>();
                     param.forEach((k, v) -> {
