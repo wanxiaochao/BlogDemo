@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
         join 也有类似的方法*/
 
 public class CountDownLatchTest {
-    private static CountDownLatch c = new CountDownLatch(3);
+    private static CountDownLatch c = new CountDownLatch(2);
 
     public static void main(String[] args) {
         new Thread(new Runnable() {
@@ -31,7 +31,7 @@ public class CountDownLatchTest {
                     Thread.sleep(1000);
                     System.out.println(5 + " -- " + System.currentTimeMillis());
                     c.await();
-                    System.out.println("3" + " -- " + System.currentTimeMillis());
+                    System.out.println(3 + " -- " + System.currentTimeMillis());
                     c.countDown();
                     System.out.println(6 + " -- " + System.currentTimeMillis());
 
@@ -40,6 +40,8 @@ public class CountDownLatchTest {
                 }
             }
         }).start();
+
+        System.out.println("主线程执行");
   /*      try {
 
         } catch (InterruptedException e) {

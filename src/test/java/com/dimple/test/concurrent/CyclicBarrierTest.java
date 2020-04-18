@@ -3,6 +3,12 @@ package com.dimple.test.concurrent;
 import java.util.Map;
 import java.util.concurrent.*;
 
+/**
+ 回环栅栏：让一组线程等待至某个状态之后再全部同时执行。
+ 叫做回环是因为当所有等待线程都被释放以后，CyclicBarrier可以被重用。
+ 叫做栅栏，大概是描述所有线程被栅栏挡住了，当都达到时，一起跳过栅栏执行，也算形象。我们可以把这个状态就叫做barrier。
+* @since: 2020/4/18
+*/
 public class CyclicBarrierTest {
 
     /**

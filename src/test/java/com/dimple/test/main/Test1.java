@@ -2,13 +2,16 @@ package com.dimple.test.main;
 
 import com.dimple.project.blog.blog.domain.Blog;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Test1 {
 
     public static void main(String[] args) {
-        System.out.println(3|9);
+
+        System.out.println(3 | 9);
         List<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
@@ -21,7 +24,7 @@ public class Test1 {
         do {
             //System.out.printf("do while(%s)",i);
             i++;
-        }while (i<100);
+        } while (i < 100);
 
 
         /**
@@ -29,7 +32,7 @@ public class Test1 {
          * >> : 右移运算符，num >> 1 数据未溢出时，相当于num除以2
          */
         System.out.println("左移：" + (2 << 6));
-        System.out.println(6*36);
+        System.out.println(6 * 36);
         System.out.println("右移：" + (2 >> 3));
         String s = "";
         s.hashCode();
