@@ -69,6 +69,16 @@ public class StringMain {
 
     public static void main(String[] args) {
 
+        Integer score = 10001;
+        score /= 10000;
+
+        int points = 0;
+        for (Integer i = 1; i <= score; i++) {
+            points += i;
+        }
+        System.out.println(points);
+
+
         int rank = rank(9, new int[]{1, 2, 3});
         System.out.println(rank);
 
@@ -88,12 +98,6 @@ public class StringMain {
 
         System.out.println(start);
         System.out.println(end);
-        Integer score = 2000;
-        score = score / 1000;
-        int points = 0;
-        for (Integer i = 1; i <= score; i++) {
-            points += i;
-        }
 
         //System.out.println(points);
 

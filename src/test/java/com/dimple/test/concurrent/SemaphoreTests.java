@@ -36,6 +36,8 @@ public class SemaphoreTests {
         Semaphore semaphore = new Semaphore(5); //机器数目
         for (int i = 0; i < N; i++)
             new Worker(i, semaphore).start();
+
+        System.out.println("主线程执行结束");
     }
 
     static class Worker extends Thread {
